@@ -38,7 +38,7 @@ and open the template in the editor.
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mr-auto">
                             <li class="nav-item active">
-                                <a class="nav-link" href="index.xhtml">Inicio <span class="sr-only">(current)</span></a>
+                                <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -54,7 +54,7 @@ and open the template in the editor.
                         </ul>
                         <form class="form-inline my-2 my-lg-0">
                             <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Buscar"></input>
-                            <a class="btn btn-outline-warning my-2 my-sm-0" href="productos.xhtml">Buscar</a>
+                            <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Buscar</button>
                             
                             <ul class="navbar-nav mr-auto">
                                 <li class="nav-item dropdown">
@@ -91,47 +91,47 @@ and open the template in the editor.
                 <div class="form-group">
                     <label for="InputName" class="col-md-2 control-label">Nombre</label>
                     <div class="col-sm-15">
-                        <input type="text" class="form-control" id="InputName" placeholder="Eduardo Romero"></input>
+                        <input type="text" class="form-control" id="InputName" placeholder="Juan Garza González" minlength="1" maxlength="30" title="Solo se aceptan letras y es obligatorio este campo" required="true" pattern="[a-zA-Z]" ></input>
                     </div>
 
                     <label for="InputAp" class="col-md-2 control-label">RFC</label>
                     <div class="col-sm-15">
-                        <input type="text" class="form-control" id="InputAp" placeholder="123456765"></input>
+                        <input type="text" class="form-control" id="InputAp" placeholder="MELM8305201H8" title="Es obligatorio este campo" required="true" maxlength="13" minlength="10" pattern="[A-Za-z0-9]"></input>
                     </div>
 
                     <label for="InputAm" class="col-md-2 control-label">Estado</label>
                     <div class="col-sm-15">
-                        <input type="text" class="form-control" id="InputName" placeholder="México"></input>
+                        <input type="text" class="form-control" id="InputName" placeholder="México" required="true" minlength="1" maxlength="30" pattern="[a-zA-Z]" title="Solo se aceptan letras y es obligatorio este campo"></input>
                     </div>
                      <label for="InputAm" class="col-md-2 control-label">Municipio</label>
                     <div class="col-sm-15">
-                        <input type="text" class="form-control" id="InputName" placeholder="Toluca"></input>
+                        <input type="text" class="form-control" id="InputName" placeholder="Toluca" required="true" minlength="1" maxlength="30" pattern="[a-zA-Z]" title="Solo se aceptan letras y es obligatorio este campo"></input>
                     </div>
                     <label for="InputAm" class="col-md-2 control-label">Calle</label>
                     <div class="col-sm-15">
-                        <input type="text" class="form-control" id="InputName" placeholder="Privada de Pino Suárez"></input>
+                        <input type="text" class="form-control" id="InputName" placeholder="Anillo perimetral" required="true" minlength="1" maxlength="30" pattern="[A-Za-z0-9]" title="Se aceptan letras, números y es obligatorio este campo"></input>
                     </div>
                      <label for="InputAm" class="col-md-2 control-label">Numero</label>
                     <div class="col-sm-15">
-                        <input type="number" class="form-control" id="InputName" placeholder="106"></input>
+                        <input type="number" class="form-control" id="InputName" placeholder="106" required="true" minlength="1" maxlength="5" pattern="[0-9]" title="Solo se aceptan números y es obligatorio este campo" ></input>
                     </div>
 
                       <label for="InputAm" class="col-md-2 control-label">CP</label>
                     <div class="col-sm-15">
-                        <input type="number" class="form-control" id="InputName" placeholder="50090"></input>
+                        <input type="number" class="form-control" id="InputName" placeholder="50010" required="true" minlength="5" maxlength="5" pattern="[0-9]" title="Solo se aceptan números y es obligatorio este campo"></input>
                     </div>
 
 
 
                     <label for="InputEmail" class="col-sm-2 control-label">Correo</label>
                     <div class="col-sm-15">
-                        <input type="email" class="form-control" id="InputEmail" placeholder="ejemplo@gmail.com"> </input>
+                        <input type="email" class="form-control" id="InputEmail" placeholder="juang@hotmail.com" required="true" minlength="15" maxlength="30" pattern="[a-zA-Z0-9]" title="Es obligatorio este campo"> </input>
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="InputPassword" class="col-sm-2 control-label">Contraseña</label>
                     <div class="col-sm-15">
-                        <input type="password" class="form-control" id="InputPassword" placeholder="**********"> </input>
+                        <input type="password" class="form-control" id="InputPassword" placeholder="**********" required="true" minlength="1" maxlength="20" pattern="[A-Za-z0-9]" title="Es obligatorio este campo"> </input>
                     </div>
 
                            
@@ -141,8 +141,8 @@ and open the template in the editor.
                 <center>
                     <div>
                 <form class="form-inline" allign="center">  
-                   <a href="index.xhtml" class="btn btn-warning" id="boton_cancelar">Registrar</a>
-                   <a href="index.xhtml" class="btn btn-danger" id="boton_cancelar">Cancelar</a>
+                   <a href="index.html" class="btn btn-warning" id="boton_cancelar">Registrar</a>
+                   <a href="index.html" class="btn btn-danger" id="boton_cancelar">Cancelar</a>
                 </form>
                         </div>
                     </center>
