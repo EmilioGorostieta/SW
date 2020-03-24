@@ -321,22 +321,41 @@ footer{
 
 
 
+#grande{
+    
+    position: relative;
+
+    margin-top: 3%;
+height: 300px;
+    
+}
 
 
+#promos{    
+    margin-left: 42%;
+    position: absolute;
+    margin-right: 3%;
+    
 
+}
 
+#promosmov{
+    background: white;
+    width: 450px;   
+    height: 350px;
+    margin-left: 5%;
+    margin-top: 13%;
+    
+    position: absolute;
+    align-content: center;
+ 
+    transform: translateY(-50%);
 
+    
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+#conta_imgprom{
+    height:310px;
+    width: 160px;
+}
 
